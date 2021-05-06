@@ -2,21 +2,26 @@
 
 var home = 'Home page';
 var classes = 'classes we have';
-var location = 'MAP';
+var myLocation = 'MAP';
 var join_us='welcome to our family';
 
-var setUrPlane=prompt ('what is ur goal?');
+alert(join_us);
+
+var name=prompt ('what is ur name?');
+var age=prompt ('what is ur age?');
+
+
+
+var setUrPlane=prompt ('what is ur goal? lose fat or get fit?');
 //  // console.log(setUrPlane);
-
-
 if (setUrPlane =='lose fat'){
-document.write('<img src="https://www.pickthebrain.com/blog/wp-content/uploads/2013/10/Workout.jpg">');
+document.write('<h2> you are on ur way </h2>');
 }
 else if(setUrPlane =='get fit'){
-document.write('<h3> here we go </h3>');
+document.write('<h2> here we go </h2>');
 }
 else{
-  document.write('<h4> Have fun </h4>');
+  document.write('<img src="https://app.retargetbot.com/upload/comboposter/2/2_image_1582136788872399.jpg">');
 }
 
 
