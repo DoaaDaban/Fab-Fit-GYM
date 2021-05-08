@@ -7,7 +7,7 @@ var setUrPlane=prompt ('what is ur goal? lose fat or get fit?');
 
 if (setUrPlane =='lose fat')
 {
-document.write('<h2> you are on ur way </h2>');
+document.write('<h4> you are on ur way </h4>');
 }
 
 else if(setUrPlane =='get fit'){
@@ -16,7 +16,7 @@ document.write('<h4> here we go! </h4>');
 
 else{
 
- document.write('<img src="https://cdn4.vectorstock.com/i/1000x1000/78/18/healthy-heart-cardio-icon-vector-12827818.jpg" width="70 px">')
+ document.write('<img src="https://cdn4.vectorstock.com/i/1000x1000/78/18/healthy-heart-cardio-icon-vector-12827818.jpg" width="50 px">')
 
 }
 
