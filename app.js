@@ -1,20 +1,22 @@
 
 
-var home = 'Home page';
+/*var home = 'Home page';
 var classes = 'classes we have';
 var myLocation = 'MAP';
 var join_us='welcome to our GYM';
 
 alert(join_us);
+*/
 
-var name=prompt ('what is ur name?');
-var age=prompt ('what is ur age?');
+var name=prompt ('please enter ur weight?');
+var age=prompt ('please enter ur height?');
+
 
 var setUrPlane=prompt ('what is ur goal? lose fat or get fit?');
 //  // console.log(setUrPlane);
 if (setUrPlane =='lose fat')
 {
-document.write('<h4> you are on ur way! </h4>');
+document.write('<h2> you are on ur way </h2>');
 }
 //  // console.log(setUrPlane);
 
@@ -22,7 +24,7 @@ else if(setUrPlane =='get fit'){
 document.write('<h4> here we go! </h4>');
 }
 else{
-  document.write('<img src="https://app.retargetbot.com/upload/comboposter/2/2_image_1582136788872399.jpg" width="70 px">')
+ document.write('<img src="https://app.retargetbot.com/upload/comboposter/2/2_image_1582136788872399.jpg" width="70 px">')
   }
 
 /*var plan= prompt('hfh');
@@ -49,19 +51,17 @@ while (setUrPlane !== "lose fat" && setUrPlane !== "get fit"){
 setUrPlane=prompt ('pls choose ur goal? lose fat or get fit?');
 }
 
-
 var rate= prompt('please rate our gym out of 5?');
 
- 
 for( var i=1; i<=rate; i++){
 
   if (i<=5){
-
-  document.write('<img src="https://cdn3.iconfinder.com/data/icons/like-and-feedback/100/like_rate_rating_feedback-04-512.png" width="50px">');
+  document.write('<img src="https://previews.123rf.com/images/travelman/travelman1610/travelman161000052/64334690-healthy-heart-icon-heart-with-healthy-status-check-mark-and-cardiogram-.jpg" width=50px>');
   }
   else {
     var note=prompt('please enter rate up to 5 only');
   }
 //while (i<=5);
-}
- 
+ // document.write('<img src="https://spng.pngfind.com/pngs/s/61-617798_health-fitness-icon-healthy-food-icon-png-transparent.png" width=50px>')
+  }
+
