@@ -3,40 +3,65 @@
 var home = 'Home page';
 var classes = 'classes we have';
 var myLocation = 'MAP';
-var join_us='welcome to our family';
+var join_us='welcome to our GYM';
 
 alert(join_us);
 
 var name=prompt ('what is ur name?');
 var age=prompt ('what is ur age?');
 
-
-<<<<<<< HEAD
-
 var setUrPlane=prompt ('what is ur goal? lose fat or get fit?');
 //  // console.log(setUrPlane);
-if (setUrPlane =='lose fat'){
-document.write('<h2> you are on ur way </h2>');
-=======
-var setUrPlane=prompt ('what is ur goal? lose fat or get fit?');
-//  // console.log(setUrPlane);
-if (setUrPlane =='lose fat'){
-document.write('<h4> you are on ur way </h4>');
->>>>>>> 5805a08fdb0b081695c692eabd231dfd9f2d4434
+if (setUrPlane =='lose fat')
+{
+document.write('<h4> you are on ur way! </h4>');
 }
+//  // console.log(setUrPlane);
+
 else if(setUrPlane =='get fit'){
-document.write('<h2> here we go </h2>');
+document.write('<h4> here we go! </h4>');
 }
 else{
-  document.write('<img src="https://app.retargetbot.com/upload/comboposter/2/2_image_1582136788872399.jpg">');
+  document.write('<img src="https://app.retargetbot.com/upload/comboposter/2/2_image_1582136788872399.jpg" width="70 px">')
+  }
+
+/*var plan= prompt('hfh');
+for(i=0;i<3;i++){
+ plan=document.write('pls choose ur goal');
+  plan=i
+}*/
+
+
+/*while(i<3){
+ if (setUrPlane !== "lose fat" || "get fit") {
+ document.write('pls choose ur goal');}
+ consol.log('hey');
+i++
+}*/
+
+/* 1- ask user whats ur goal?
+2- keep asking until he answer of lose fat or get fat
+3- how many stars do u give our gym
+4-show number of stars based on user input
+*/
+
+while (setUrPlane !== "lose fat" && setUrPlane !== "get fit"){
+setUrPlane=prompt ('pls choose ur goal? lose fat or get fit?');
 }
 
 
-//console.log(home);
+var rate= prompt('please rate our gym out of 5?');
 
-//alert(home);
+ 
+for( var i=1; i<=rate; i++){
 
-//document.write('<h3>'+home+'<h3>');
+  if (i<=5){
 
-
-//if(home==true){}
+  document.write('<img src="https://cdn3.iconfinder.com/data/icons/like-and-feedback/100/like_rate_rating_feedback-04-512.png" width="50px">');
+  }
+  else {
+    var note=prompt('please enter rate up to 5 only');
+  }
+//while (i<=5);
+}
+ 
